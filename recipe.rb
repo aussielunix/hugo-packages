@@ -1,4 +1,5 @@
 class Hugo < FPM::Cookery::Recipe
+
   homepage    'http://gohugo.io'
 
   name        'hugo'
@@ -11,7 +12,7 @@ class Hugo < FPM::Cookery::Recipe
   section     'admin'
 
   source      "https://github.com/spf13/hugo/releases/download/v#{version}/hugo_#{version}_linux_amd64.tar.gz"
-  sha256      '2e0a7971d0df81996ae1db0fe04291fb39a706cc9e8a2a98e9fe735c7289379f'
+  sha256      '27f4de82e490dfbe0f81eee280f94878e2fd71f2716d7d067fd9c57816ac309a'
 
   def build
   end
