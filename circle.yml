@@ -15,7 +15,7 @@ deployment:
   production:
     branch: master
     commands:
-      - package_cloud push aussielunix/hugo/ubuntu/14.04 /home/ubuntu/hugo-packages/pkg/hugo_0.12-1_amd64.deb
+      - package_cloud push aussielunix/tools/ubuntu/14.04 /home/ubuntu/hugo-packages/pkg/hugo_*_amd64.deb
 
 general:
   artifacts:
