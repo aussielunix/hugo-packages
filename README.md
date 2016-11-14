@@ -1,6 +1,6 @@
 # hugo packages
 
-This is an example of taking an upstream [golang binary tarball (hugo)](http://hugo.io), packaging it into a `.deb` and pushing it up to a [Packagecloud repo](https://packagecloud.io/aussielunix/tools).  
+This is an example of taking an upstream [golang binary tarball (hugo)](http://gohugo.io), packaging it into a `.deb` and pushing it up to a [Packagecloud repo](https://packagecloud.io/aussielunix/tools).  
 This makes use of the following things to make it happen:
 
 * [fpm-cookery](https://github.com/bernd/fpm-cookery)
