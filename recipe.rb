@@ -4,7 +4,7 @@ class Hugo < FPM::Cookery::Recipe
 
   name        'hugo'
   arch        'amd64'
-  version     '0.12'
+  version     '0.17'
   revision    '1'
   vendor      'aussielunix'
 
