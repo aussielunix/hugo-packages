@@ -19,7 +19,7 @@ class Hugo < FPM::Cookery::Recipe
 
   def install
     mkdir_p opt
-    cp_r builddir("hugo-linux-amd64"), opt('hugo')
+    cp_r builddir("hugo_#{version}_linux_amd64"), opt('hugo')
     etc('profile.d').install workdir('hugo.profile'), 'hugo.sh'
   end
 end
