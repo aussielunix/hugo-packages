@@ -12,7 +12,7 @@ class Hugo < FPM::Cookery::Recipe
   section     'admin'
 
   source      "https://github.com/spf13/hugo/releases/download/v#{version}/hugo_#{version}_Linux-64bit.tar.gz"
-  sha256      'a4ff87f3b16c786226e0d1b3a2862246080ca1a608a2e2b676166cf0ef929001'
+  sha256      'f1467e204cc469b9ca6f17c0dc4da4a620643b6d9a50cb7dce2508aaf8fbc1ea'
 
   def build
   end
